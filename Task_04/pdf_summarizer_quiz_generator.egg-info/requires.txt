@@ -1,0 +1,6 @@
+pypdf
+python-dotenv
+streamlit
+agents
+openai-agents
+pydantic

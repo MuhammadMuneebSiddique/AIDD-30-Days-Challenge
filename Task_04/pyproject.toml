@@ -1,0 +1,15 @@
+[project]
+name = "pdf-summarizer-quiz-generator"
+version = "0.1.0"
+dependencies = [
+    "pypdf",
+    "python-dotenv",
+    "streamlit",
+    "agents",
+    "openai-agents", # Although we use agents directly, openai-agents is the SDK name
+    "pydantic",
+]
+
+[tool.setuptools.packages.find]
+include = ["*"]
+exclude = ["tests*", "docs*", "examples*"]
